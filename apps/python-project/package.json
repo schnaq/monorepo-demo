@@ -1,0 +1,10 @@
+{
+  "name": "python-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "poetry install --no-root",
+    "test": "poetry run pytest"
+  }
+}
