@@ -1,0 +1,9 @@
+{
+  "name": "bb",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "bb test:bb"
+  },
+  "main": "index.js"
+}

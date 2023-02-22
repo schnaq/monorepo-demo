@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build and Test
+    name: Build, Lint and Test
     timeout-minutes: 15
     runs-on: ubuntu-latest
     env:
@@ -35,3 +35,6 @@ jobs:
 
       - name: Lint
         run: yarn lint
+
+      - name: Test
+        run: yarn test
